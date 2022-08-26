@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/card"
+    android:layout_marginBottom="@dimen/_8sdp"
+    android:paddingBottom="@dimen/_10sdp"
+    android:clipToPadding="false"
+    android:elevation="@dimen/_3sdp"
+    app:cardCornerRadius="@dimen/_5sdp"
+    android:layout_margin="@dimen/_10sdp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Full Name:"
+            android:fontFamily="casual"
+            android:textSize="@dimen/_17ssp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/_5sdp"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Email:"
+            android:fontFamily="casual"
+            android:textSize="@dimen/_17ssp"
+            android:layout_below="@id/age"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/_5sdp"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Password:"
+            android:fontFamily="casual"
+            android:textSize="@dimen/_17ssp"
+            android:layout_below="@id/gender"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/_5sdp"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" CountryCode:"
+            android:fontFamily="casual"
+            android:textSize="@dimen/_17ssp"
+            android:layout_below="@id/pass"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/_5sdp"
+
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Phone:"
+            android:fontFamily="casual"
+            android:textSize="@dimen/_17ssp"
+            android:layout_below="@id/country"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/_5sdp"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/nametv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_17ssp"
+            android:fontFamily="casual"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_toRightOf="@id/age"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/emailtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_17ssp"
+            android:fontFamily="casual"
+            android:layout_below="@id/nametv"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_toRightOf="@id/age"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/passtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_17ssp"
+            android:fontFamily="casual"
+            android:layout_below="@id/emailtv"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_toRightOf="@id/age"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/cctv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_17ssp"
+            android:fontFamily="casual"
+            android:layout_below="@id/passtv"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_toRightOf="@id/age"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/phonetv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_17ssp"
+            android:fontFamily="casual"
+            android:layout_below="@id/cctv"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_toRightOf="@id/age"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

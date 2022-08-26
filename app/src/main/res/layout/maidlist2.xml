@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/_8sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/card"
+    android:id="@+id/cardview"
+    android:paddingBottom="@dimen/_10sdp"
+    android:clipToPadding="false"
+    app:cardElevation="@dimen/_3sdp"
+    app:cardCornerRadius="@dimen/_5sdp"
+    android:layout_margin="@dimen/_10sdp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/candname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_19ssp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="casual"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/candcat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_17ssp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/candname"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:fontFamily="casual"
+            android:textColor="#000"
+            />
+        <TextView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:text="Select"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:fontFamily="casual"
+            android:linksClickable="true"
+            android:layout_margin="@dimen/_8sdp"
+            android:textSize="@dimen/_15ssp"
+            android:layout_below="@+id/education"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/contact"
+            android:background="@drawable/mybutton"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text=" AGE:"
+            android:textSize="@dimen/_17ssp"
+            android:layout_below="@id/candcat"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Gender:"
+            android:fontFamily="casual"
+            android:textSize="@dimen/_17ssp"
+            android:layout_below="@id/age"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/religion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Religion:"
+            android:fontFamily="casual"
+            android:textSize="@dimen/_17ssp"
+            android:layout_below="@id/gender"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text=" City:"
+            android:textSize="@dimen/_17ssp"
+            android:layout_below="@id/religion"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text=" Mobile:"
+            android:textSize="@dimen/_17ssp"
+            android:layout_below="@id/city"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/experience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Experience:"
+            android:textSize="@dimen/_17ssp"
+            android:fontFamily="casual"
+            android:layout_below="@id/mobile"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/agetv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_17ssp"
+            android:layout_below="@id/candcat"
+            android:fontFamily="casual"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_100sdp"
+            android:layout_toRightOf="@id/age"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/gendertv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_17ssp"
+            android:fontFamily="casual"
+            android:layout_below="@id/agetv"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_100sdp"
+            android:layout_toRightOf="@id/age"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/religiontv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textSize="@dimen/_17ssp"
+            android:layout_below="@id/gendertv"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_100sdp"
+            android:layout_toRightOf="@id/age"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/citytv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_17ssp"
+            android:fontFamily="casual"
+            android:layout_below="@id/religiontv"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_100sdp"
+            android:layout_toRightOf="@id/age"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/mobiletv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_17ssp"
+            android:fontFamily="casual"
+            android:layout_below="@id/citytv"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_100sdp"
+            android:layout_toRightOf="@id/age"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/exptv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textSize="@dimen/_17ssp"
+            android:layout_below="@id/mobiletv"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_100sdp"
+            android:layout_toRightOf="@id/age"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/addtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textSize="@dimen/_17ssp"
+            android:layout_below="@id/exptv"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_100sdp"
+            android:layout_toRightOf="@id/age"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Address:"
+            android:textSize="@dimen/_17ssp"
+            android:fontFamily="casual"
+            android:layout_below="@id/experience"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/cnic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" CNIC:"
+            android:textSize="@dimen/_17ssp"
+            android:fontFamily="casual"
+            android:layout_below="@id/address"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/education"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Education:"
+            android:textSize="@dimen/_17ssp"
+            android:fontFamily="casual"
+            android:layout_below="@id/cnic"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/cnictv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textSize="@dimen/_17ssp"
+            android:layout_below="@id/addtv"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_100sdp"
+            android:layout_toRightOf="@id/age"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/edutv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textSize="@dimen/_17ssp"
+            android:layout_below="@id/cnictv"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_100sdp"
+            android:layout_toRightOf="@id/age"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
